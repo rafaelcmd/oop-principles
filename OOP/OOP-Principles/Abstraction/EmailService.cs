@@ -1,5 +1,6 @@
 namespace OOP.OOP_Principles.Abstraction;
 
+// The EmailService class demonstrates the concept of abstraction by hiding the details of connecting
 public class EmailService
 {
     public void SendEmail()

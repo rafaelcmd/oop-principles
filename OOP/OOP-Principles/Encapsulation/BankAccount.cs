@@ -9,10 +9,10 @@ public class BankAccount
     {
         if (depositAmount <= 0)
         {
-            throw new ArgumentException("Initial balance cannot be negative");
+            throw new ArgumentException("Deposit amount cannot be negative");
         }
         
-        _balance = depositAmount;
+        _balance += depositAmount;
     }
     
     public void Withdraw(decimal withDrawAmount)
